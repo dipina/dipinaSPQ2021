@@ -3,21 +3,21 @@ package game;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class Barbarian extends Character {
-	final Logger logger = LoggerFactory.getLogger(Barbarian.class);
+public class Princess extends Character {
+	final Logger logger = LoggerFactory.getLogger(Princess.class);
 	
 	/**
-	* Constructor of Barbarian thar receives as argument a WeaponBehaviour.
+	* Constructor of Princess thar receives as argument a WeaponBehaviour.
 	*
-	* @param w Weapon with which the Barbarian will fight
+	* @param w Weapon with which the Princess will fight
 	*/
-	public Barbarian(WeaponBehaviour w) {
+	public Princess(WeaponBehaviour w) {
 		super(w);
 	}
 	
 	@Override
 	public void display() {
 	// TODO Auto-generated method stub
-		logger.info("You are a strong, hulky barbarian!!!.");
+		logger.info("You are a strong, hulky Princess!!!.");
 	}
 }
